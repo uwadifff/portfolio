@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio Landing Page</title>
+  <link rel="stylesheet" href="design.css"/>
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="logo">Joshua Paul G Mataverde</div>
+    <ul class="nav-links">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="hero" class="hero">
+    <div class="hero-content">
+      <h1>Hello, I'm <span>Joshua Paul G Mataverde</span></h1>
+      <p>Aspiring System Analyst</p>
+      <a href="#contact" class="btn">Hire Me</a>
+    </div>
+  </section>
+
+  <section id="about" class="about" style="background: linear-gradient(120deg, #f9f9f9 60%, #e3eafc 100%); border-radius: 24px; margin: 2rem 0; box-shadow: 0 4px 24px rgba(0,0,0,0.06);">
+    <h2 style="text-align:center; font-size:2.2rem; font-weight:700; margin-bottom:2rem; letter-spacing:1px; color:#222;">About Me</h2>
+    <div class="about-container" style="display:flex; flex-wrap:wrap; align-items:center; justify-content:center; gap:2.5rem;">
+      <img src="https://i.ibb.co/27GT1mWP/545798943-1880754295806427-2627553390840939114-n.jpg" alt="Profile Picture" class="profile-pic" style="box-shadow:0 2px 16px rgba(0,0,0,0.10); border:4px solid #fff; width:210px; height:210px; object-fit:cover; margin-bottom:1rem;"/>
+      <div class="about-text" style="max-width:520px;">
+        <p style="font-size:1.15rem; color:#333; margin-bottom:1.2rem; line-height:1.7;">I'm <b>Joshua Paul G Mataverde</b>, a <b>BSIT-3SMP</b> student at LSPU-Los Baños campus, aspiring to become a System Analyst. I am passionate about building clean, responsive, and modern websites, with strong skills in HTML, CSS, JavaScript, and a keen eye for design and user experience.</p>
+        <ul class="skills" style="display:flex; flex-wrap:wrap; gap:0.7rem 1.5rem; font-size:1rem;">
+          <li style="background:#e3eafc; border-radius:12px; padding:0.4rem 1.1rem; color:#2d5be3; font-weight:500;">HTML & CSS</li>
+          <li style="background:#e3eafc; border-radius:12px; padding:0.4rem 1.1rem; color:#2d5be3; font-weight:500;">Database Analyst</li>
+          <li style="background:#e3eafc; border-radius:12px; padding:0.4rem 1.1rem; color:#2d5be3; font-weight:500;">Python</li>
+          <li style="background:#e3eafc; border-radius:12px; padding:0.4rem 1.1rem; color:#2d5be3; font-weight:500;">UI/UX Principles</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="portfolio" class="portfolio" style="background: none; box-shadow: none; border-radius: 0; margin: 2rem 0;">
+    <h2 style="font-size:2.8rem; text-align:center; margin-bottom:2.5rem; font-weight:800; letter-spacing:1px; color:#181818;">My Work</h2>
+    <div class="portfolio-grid" style="display:flex; justify-content:center; align-items:center;">
+      <div class="card" style="max-width:600px; width:100%; margin:auto; border:2px solid #bbb; border-radius:28px; box-shadow:0 6px 32px rgba(0,0,0,0.10); padding:3rem 2.5rem 2.5rem 2.5rem; background:#fff; transition:box-shadow 0.2s; display:flex; flex-direction:column; align-items:center;">
+        <div style="font-size:3.5rem; margin-bottom:2rem; color:#181818;">
+        
+          <svg width="64" height="64" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="9" y="2" width="6" height="20" rx="2" fill="#181818"/>
+            <rect x="2" y="9" width="20" height="6" rx="2" fill="#181818"/>
+          </svg>
+        </div>
+        <div class="portfolio-img-area">
+          <a href="https://i.ibb.co/1Gv72H7g/image.png" target="_blank" rel="noopener" class="portfolio-img-link">
+            <img src="https://i.ibb.co/1Gv72H7g/image.png" alt="LSPU Clinic System Screenshot (opens in new tab)" class="portfolio-img" loading="lazy"/>
+          </a>
+        </div>
+        <h3 style="font-size:2rem; font-weight:800; text-align:center; margin-bottom:1.2rem; color:#181818; letter-spacing:0.5px;">LSPU Clinic System</h3>
+        <p style="font-size:1.25rem; text-align:center; color:#222; margin-bottom:0; line-height:1.7; font-weight:400;">A comprehensive clinic management system for LSPU, built with <b>PHP</b> and <b>MySQL</b>.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <footer id="contact" class="footer">
+    <p>Contact me at: <a href="mailto:example@email.com">mataverdejoshuapaul17@email.com</a></p>
+    <div class="socials" style="margin: 1rem 0; display: flex; gap: 1rem; justify-content: center;">
+      <a href="https://www.facebook.com/mjoshpaul" target="_blank" rel="noopener" class="social-btn" style="display:inline-flex;align-items:center;gap:0.5rem;padding:0.5rem 1.2rem;background:#1877f3;color:#fff;border-radius:24px;text-decoration:none;font-weight:500;font-size:1rem;transition:background 0.2s;">
+        <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M22.675 0h-21.35C.595 0 0 .592 0 1.326v21.348C0 23.408.595 24 1.325 24h11.495v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.797.143v3.24l-1.918.001c-1.504 0-1.797.715-1.797 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116C23.406 24 24 23.408 24 22.674V1.326C24 .592 23.406 0 22.675 0"/></svg>
+        Facebook
+      </a>
+      <a href="https://www.instagram.com/mjoshpaul?igsh=MTNza3Via2RmdnJiMA==" target="_blank" rel="noopener" class="social-btn" style="display:inline-flex;align-items:center;gap:0.5rem;padding:0.5rem 1.2rem;background:#E1306C;color:#fff;border-radius:24px;text-decoration:none;font-weight:500;font-size:1rem;transition:background 0.2s;">
+        <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 1.366.062 2.633.334 3.608 1.308.974.974 1.246 2.242 1.308 3.608.058 1.266.069 1.646.069 4.85s-.011 3.584-.069 4.85c-.062 1.366-.334 2.633-1.308 3.608-.974.974-2.242 1.246-3.608 1.308-1.266.058-1.646.069-4.85.069s-3.584-.011-4.85-.069c-1.366-.062-2.633-.334-3.608-1.308-.974-.974-1.246-2.242-1.308-3.608C2.175 15.647 2.163 15.267 2.163 12s.012-3.584.07-4.85c.062-1.366.334-2.633 1.308-3.608C4.515 2.567 5.783 2.295 7.149 2.233 8.415 2.175 8.795 2.163 12 2.163zm0-2.163C8.741 0 8.332.012 7.052.07 5.771.128 4.659.334 3.678 1.315c-.98.98-1.187 2.092-1.245 3.373C2.012 5.668 2 6.077 2 12c0 5.923.012 6.332.07 7.612.058 1.281.265 2.393 1.245 3.373.98.98 2.092 1.187 3.373 1.245C8.332 23.988 8.741 24 12 24s3.668-.012 4.948-.07c1.281-.058 2.393-.265 3.373-1.245.98-.98 1.187-2.092 1.245-3.373.058-1.28.07-1.689.07-7.612 0-5.923-.012-6.332-.07-7.612-.058-1.281-.265-2.393-1.245-3.373-.98-.98-2.092-1.187-3.373-1.245C15.668.012 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zm0 10.162a3.999 3.999 0 1 1 0-7.998 3.999 3.999 0 0 1 0 7.998zm6.406-11.845a1.44 1.44 0 1 0 0 2.88 1.44 1.44 0 0 0 0-2.88z"/></svg>
+        Instagram
+      </a>
+    </div>
+    <p>&copy; 2025 MyPortfolio</p>
+  </footer>
+</body>
+</html>
